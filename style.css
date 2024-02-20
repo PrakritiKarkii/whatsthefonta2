@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* font-family: "Crimson Text", serif;
+font-weight: 400;
+font-style: normal; */
+
+html,
+body{
+    background:#ffb3ff;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    color: #000000;
+    overflow: hidden;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.artist
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.artist_name
+{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .2em;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.artist img
+{
+    border-radius: 20px;
+}
+
+
+.about_song p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container
+{
+    width: 450px;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    box-shadow: 
+    -5px -5px 10px #ffb3ff,
+    5px 5px 10px#000000
+    ;
+text-align: start;
+border-radius: 25px;
+}
+
+.container h1 
+{
+    text-align: center;
+}
+
+
+.container p{
+    text-wrap: nowrap;
+}
+
+
+.verse1,
+.verse2
+{
+font-weight: 500;
+}
+
+.chorus
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+  
